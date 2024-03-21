@@ -62,32 +62,32 @@ https://code.visualstudio.com/download/
 #### 1- Page Object Model design pattern
 * Separating pages contents and keywords in different modules to enhance readability and maintainability
 
-#### 1- Project structure adjustment to modules
+#### 2- Project structure adjustment to modules
 * Dividing the project into modules according to its functionality and usage
 
-#### 2- Using data driven framework
+#### 3- Using data driven framework
 * Separating test data to external files to enhance readability and maintainability
 * Reading from different types of files (json format, csv and excel sheets)
 
-#### 3- Parallel execution
+#### 4- Parallel execution
 * Using pabot library to run tests in parallel
 
-#### 4- Running in different environments
+#### 5- Running in different environments
 * Adding an option to pass the environment value through CLI
 * Adjustment of the baseURL in code and config file according to the running environment
 * Adjustment of different data files according to the running environment
 
-#### 5- Database connection
+#### 6- Database connection
 * Adding a usable module for mysql DB connection using database and pymysql libraries
 
-#### 6- Handling different languages
+#### 7- Handling different languages
 * Adding a simple technique to run the test cases in different language
 * Adding an option to pass the language through CLI
 
-#### 7- Poetry
+#### 8- Poetry
 * Adding poetry library to handle libraries versioning
 
-#### 8- Allure report
+#### 9- Allure report
 * Adding allure report with more analytics and charts options to enhance readability and visibility to the test report
 
 ## `Contents:`

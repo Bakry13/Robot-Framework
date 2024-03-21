@@ -21,7 +21,7 @@ https://nodejs.org/en/download
 https://www.jetbrains.com/pycharm/download/
 https://code.visualstudio.com/download/
 
-#### 4- Install poetry to managae libraries versions
+#### 4- Install poetry to manage libraries versions
         (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
 
 

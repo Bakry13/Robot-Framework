@@ -1,0 +1,2 @@
+getUsers = '/posts'
+postUsers = '/posts'

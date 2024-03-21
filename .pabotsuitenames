@@ -1,0 +1,6 @@
+datasources:1192a05932984f36ffd77bf9aabc5d78aea984cc
+commandlineoptions:5ba4245be3825e2094372ec6b75a743d15110b1c
+suitesfrom:no-suites-from-option
+file:018f5d487b20beac56b3b419e95bf488b1b561a1
+--test loginTest.Verify contact us text
+--test loginTest.Verify the title of home page for Automation Exercise after login

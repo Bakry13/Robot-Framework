@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Rebot 7.0 (Python 3.12.0 on win32)" generated="2024-03-20T15:32:12.894488" rpa="false" schemaversion="5">
+<suite id="s1" name="loginTest" source="D:\automation\Robot-Framework\tests\ui\loginTest.robot">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>start our test suite</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-03-20T15:32:00.180672" elapsed="0.000000"/>
+</kw>
+<test id="s1-t1" name="Verify contact us text" line="13">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>start our test case</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-03-20T15:32:00.183878" elapsed="0.000000"/>
+</kw>
+<kw name="Launch Browser" owner="testBase">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${BaseURL}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-03-20T15:32:00.183878" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="Browser">
+<msg time="2024-03-20T15:32:00.184904" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2024-03-20T15:32:00.184904" level="INFO">{"browser": "firefox", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\automation\\Robot-Framework\\output\\pabot_results\\0\\browser\\traces\\7db7d048-ed37-4182-b025-521fc44b41e5"}</msg>
+<msg time="2024-03-20T15:32:01.043723" level="INFO">Successfully created browser with options: {"browser":"firefox","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\automation\\Robot-Framework\\output\\pabot_results\\0\\browser\\traces\\7db7d048-ed37-4182-b025-521fc44b41e5"}</msg>
+<msg time="2024-03-20T15:32:01.044829" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2024-03-20T15:32:01.094275" level="INFO">Successfully created context. </msg>
+<msg time="2024-03-20T15:32:01.094275" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2024-03-20T15:32:11.886062" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2024-03-20T15:32:11.887067" level="INFO">See also file:///D:/automation/Robot-Framework/output/pabot_results/0/playwright-log.txt for additional details.</msg>
+<msg time="2024-03-20T15:32:11.887067" level="FAIL">TimeoutError: page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://automationexercise.com/", waiting until "load"[22m
+
+Tip: Use "Set Browser Timeout" for increasing the timeout.</msg>
+<arg>${BaseURL}</arg>
+<arg>${BrowserType}</arg>
+<arg>${Headless}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="FAIL" start="2024-03-20T15:32:00.184904" elapsed="11.705875">TimeoutError: page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://automationexercise.com/", waiting until "load"[22m
+
+Tip: Use "Set Browser Timeout" for increasing the timeout.</status>
+</kw>
+<status status="FAIL" start="2024-03-20T15:32:00.183878" elapsed="11.708260">TimeoutError: page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://automationexercise.com/", waiting until "load"[22m
+
+Tip: Use "Set Browser Timeout" for increasing the timeout.</status>
+</kw>
+<kw name="Verify that contact us has the correct text" owner="homePage">
+<status status="NOT RUN" start="2024-03-20T15:32:11.892138" elapsed="0.000000"/>
+</kw>
+<kw name="Test Case TearDown" owner="commonKeywords" type="TEARDOWN">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>end our test case</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-03-20T15:32:11.893146" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2024-03-20T15:32:12.424162" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-03-20T15:32:11.893146" elapsed="0.531016"/>
+</kw>
+<status status="PASS" start="2024-03-20T15:32:11.892138" elapsed="0.532024"/>
+</kw>
+<tag>textTest</tag>
+<status status="FAIL" start="2024-03-20T15:32:00.180672" elapsed="12.243490">TimeoutError: page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://automationexercise.com/", waiting until "load"[22m
+
+Tip: Use "Set Browser Timeout" for increasing the timeout.</status>
+</test>
+<test id="s1-t2" name="Verify the title of home page for Automation Exercise after login" line="18">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>start our test case</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-03-20T15:32:00.179570" elapsed="0.000000"/>
+</kw>
+<kw name="Launch Browser" owner="testBase">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${BaseURL}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-03-20T15:32:00.180672" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="Browser">
+<msg time="2024-03-20T15:32:00.181696" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2024-03-20T15:32:00.181696" level="INFO">{"browser": "firefox", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\automation\\Robot-Framework\\output\\pabot_results\\1\\browser\\traces\\807176c8-42fc-48f3-baf8-93957968d128"}</msg>
+<msg time="2024-03-20T15:32:01.043723" level="INFO">Successfully created browser with options: {"browser":"firefox","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\automation\\Robot-Framework\\output\\pabot_results\\1\\browser\\traces\\807176c8-42fc-48f3-baf8-93957968d128"}</msg>
+<msg time="2024-03-20T15:32:01.044829" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2024-03-20T15:32:01.095382" level="INFO">Successfully created context. </msg>
+<msg time="2024-03-20T15:32:01.095382" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2024-03-20T15:32:11.971901" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2024-03-20T15:32:11.971901" level="INFO">See also file:///D:/automation/Robot-Framework/output/pabot_results/1/playwright-log.txt for additional details.</msg>
+<msg time="2024-03-20T15:32:11.971901" level="FAIL">TimeoutError: page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://automationexercise.com/", waiting until "load"[22m
+
+Tip: Use "Set Browser Timeout" for increasing the timeout.</msg>
+<arg>${BaseURL}</arg>
+<arg>${BrowserType}</arg>
+<arg>${Headless}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="FAIL" start="2024-03-20T15:32:00.180672" elapsed="11.793740">TimeoutError: page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://automationexercise.com/", waiting until "load"[22m
+
+Tip: Use "Set Browser Timeout" for increasing the timeout.</status>
+</kw>
+<status status="FAIL" start="2024-03-20T15:32:00.180672" elapsed="11.795237">TimeoutError: page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://automationexercise.com/", waiting until "load"[22m
+
+Tip: Use "Set Browser Timeout" for increasing the timeout.</status>
+</kw>
+<kw name="Click Login LinkText" owner="homePage">
+<status status="NOT RUN" start="2024-03-20T15:32:11.975909" elapsed="0.000000"/>
+</kw>
+<kw name="Adjust Window Size" owner="loginPage">
+<status status="NOT RUN" start="2024-03-20T15:32:11.975909" elapsed="0.000000"/>
+</kw>
+<kw name="Read From JSON File" owner="commonKeywords">
+<var>${EmailValue}</var>
+<arg>$..email</arg>
+<status status="NOT RUN" start="2024-03-20T15:32:11.975909" elapsed="0.000000"/>
+</kw>
+<kw name="Read From JSON File" owner="commonKeywords">
+<var>${PasswordValue}</var>
+<arg>$..password</arg>
+<status status="NOT RUN" start="2024-03-20T15:32:11.975909" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Email value from json is: ${EmailValue[0]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-03-20T15:32:11.977174" elapsed="0.000000"/>
+</kw>
+<kw name="Login To Automation Practice" owner="loginPage">
+<arg>${EmailValue[0]}</arg>
+<arg>${PasswordValue[0]}</arg>
+<status status="NOT RUN" start="2024-03-20T15:32:11.977174" elapsed="0.000000"/>
+</kw>
+<kw name="Capture Screenshot For Home Page" owner="loginPage">
+<status status="NOT RUN" start="2024-03-20T15:32:11.977174" elapsed="0.000000"/>
+</kw>
+<kw name="Validate that home page has the correct title" owner="loginPage">
+<status status="NOT RUN" start="2024-03-20T15:32:11.977174" elapsed="0.000000"/>
+</kw>
+<kw name="Test Case TearDown" owner="commonKeywords" type="TEARDOWN">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>end our test case</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-03-20T15:32:11.978181" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2024-03-20T15:32:12.519177" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-03-20T15:32:11.978181" elapsed="0.540996"/>
+</kw>
+<status status="PASS" start="2024-03-20T15:32:11.978181" elapsed="0.540996"/>
+</kw>
+<tag>demo2</tag>
+<status status="FAIL" start="2024-03-20T15:32:00.177454" elapsed="12.341723">TimeoutError: page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://automationexercise.com/", waiting until "load"[22m
+
+Tip: Use "Set Browser Timeout" for increasing the timeout.</status>
+</test>
+<kw name="Log To Console" owner="BuiltIn" type="TEARDOWN">
+<arg>end our test suite</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-03-20T15:32:12.456645" elapsed="0.001002"/>
+</kw>
+<doc>[https://pabot.org/?ref=log|Pabot] result from 2 executions.</doc>
+<status status="FAIL" start="2024-03-20T15:31:59.223000" elapsed="13.233701"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">demo2</stat>
+<stat pass="0" fail="1" skip="0">textTest</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="loginTest">loginTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-03-20T15:32:00.184904" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2024-03-20T15:32:00.181696" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+</errors>
+</robot>

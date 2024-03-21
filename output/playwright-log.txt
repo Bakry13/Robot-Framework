@@ -1,0 +1,107 @@
+{"level":30,"time":"2024-03-18T10:06:41.997Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Listening on 56674"}
+(node:35492) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-03-18T10:06:42.270Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:42.271Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:42.273Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:42.273Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10693:59)
+    at PlaywrightServer.setTimeout (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10943:57)
+    at Object.onReceiveHalfClose (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-03-18T10:06:42.954Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:42.954Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:42.957Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:42.957Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10693:59)
+    at PlaywrightServer.setTimeout (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10943:57)
+    at Object.onReceiveHalfClose (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-03-18T10:06:43.604Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:43.604Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:43.608Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:43.608Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10693:59)
+    at PlaywrightServer.setTimeout (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10943:57)
+    at Object.onReceiveHalfClose (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-03-18T10:06:44.307Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:44.307Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:44.311Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:44.311Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10693:59)
+    at PlaywrightServer.setTimeout (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10943:57)
+    at Object.onReceiveHalfClose (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-03-18T10:06:44.783Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:44.783Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:44.787Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:44.787Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10693:59)
+    at PlaywrightServer.setTimeout (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10943:57)
+    at Object.onReceiveHalfClose (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-03-18T10:06:45.332Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:45.332Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10693:59)
+    at PlaywrightServer.setTimeout (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\index.js:10943:57)
+    at Object.onReceiveHalfClose (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (D:\automation\Robot-Framework\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-03-18T10:06:45.352Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:45.352Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-18T10:06:45.385Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-03-18T10:06:45.385Z","pid":35492,"hostname":"TOC1LTMBAKRY","msg":"End of node method closeAllBrowsers"}

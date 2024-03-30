@@ -194,7 +194,7 @@ https://code.visualstudio.com/download/
 
 * It is recommended to collect common keywords inside commonKeywords.robot file
 
-* Files and folders should be named with this formate {firstWordSecondWord..} (Camel case)
+* Files and folders should be named with this format {firstWordSecondWord..} (Camel case)
 
 * Variables and words start with capital letters as recommended approach
 

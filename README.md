@@ -204,7 +204,7 @@ https://code.visualstudio.com/download/
 
 * Do not write any keyword if you will not use it
 
-* For every api we create tests in spec file and general used bodies, headers and params under resources directory
+* For every api we create tests in test file and general used bodies, headers and params under resources directory
 
 * Test cases modules include commonKeywords.robot as a resource
 

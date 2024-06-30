@@ -29,3 +29,5 @@ Read From Different File Types
     Log To Console              Email value from csv is: ${readedData}
     ${readedData}               Read Excel File               ${ExcelFileName}    1       ${emailIndex}
     Log To Console              Email value from excel is: ${readedData}
+#    Read from yaml file using cmd in runtime
+    Log To Console              Email value from yaml is: ${email}
